@@ -277,15 +277,15 @@ input[type="button"] {
     }
 
     .allu1 {
-        margin-left: 8px;
+        margin-left: 7px;
     }
 
     .allu2 {
-        margin-left: 100px;
+        margin-left: 7px;
     }
 
     .allu3 {
-        margin-left: 100px;
+        margin-left: 8px;
     }
 
     nav {
@@ -353,4 +353,3 @@ input[type="button"] {
         top: 35%;
         font-size: 180%;
     }
-}
