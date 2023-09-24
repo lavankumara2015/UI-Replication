@@ -151,7 +151,19 @@ h3 {
 
 .allu1 {
     position: relative;
-    top: 20px;
+    top: 25px;
+    right: -100px;
+    word-spacing: 2px;
+}
+.allu2{
+    position: relative;
+    top: 10px;
+    right: -100px;
+    word-spacing: 2px;
+}
+.allu3{
+    position: relative;
+    top: 10px;
     right: -100px;
     word-spacing: 2px;
 }
@@ -327,6 +339,7 @@ input[type="button"] {
 
 
     }
+}
 
     footer {
         width: 100%;
