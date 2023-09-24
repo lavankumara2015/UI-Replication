@@ -1,197 +1,357 @@
-body{
+body {
     margin: 0%;
     width: 100%;
     height: 100%;
 
 }
-.topcolour{
+
+.topcolour {
     width: 100%;
     height: 3vh;
     background-color: rgb(150, 241, 155);
-  margin: 4px 0 0 0;
+    margin: 4px 0 0 0;
 }
-.links{
-   margin-left: 58%;
-   font-size: 24px;
-   color: black;
-   
+
+.links {
+    margin-left: 58%;
+    font-size: 24px;
+    color: black;
+
 }
-i{
+
+i {
     color: black;
 }
-nav{
+
+nav {
     width: 100%;
     height: 10vh;
     background-color: white;
 }
-.green{
+
+.green {
     color: rgb(70, 240, 70);
-   position: relative;
-   left: 40px;
-   top: 10px;
+    position: relative;
+    left: 40px;
+    top: 10px;
     font-size: 20px;
 }
-button{
-   border:  2px solid  rgb(70, 240, 70);
-    color:  rgb(70, 240, 70);
+
+button {
+    border: 2px solid rgb(70, 240, 70);
+    color: rgb(70, 240, 70);
     padding: 8px;
     float: right;
     margin-right: 80px;
     background-color: white;
 }
-.navname ,a{
+
+.navname,
+a {
     text-decoration: none;
     word-spacing: 28px;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+
 }
-.navname{
+
+.navname {
     margin-left: 44%;
     position: relative;
     top: 7px;
- 
+
 }
-.main{
+
+.main {
     width: 100%;
     height: 600px;
-   
+
 }
-h2{
-   color: white;
-   font-size: xx-large;
-   position: relative;
-   top: -400px;
-   text-align: center;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+h2 {
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: -400px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h4{
+
+h4 {
     color: white;
     position: relative;
     top: -400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-.sec{
-display: flex;
-margin: 35px;
-}
-hr{
-    color: rgb(36, 190, 36);
-}
-h1{
-   text-align: center; 
-}
-.team{
-    width: 100%;
-    height: 100vh;
-    background-color:  rgb(170, 238, 170);
+
+.sec {
+    display: flex;
+    margin: 35px;
 }
 
-.first{
-   
+hr {
+    color: rgb(36, 190, 36);
+}
+
+h1 {
+    text-align: center;
+}
+
+.team {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(170, 238, 170);
+}
+
+.first {
+
     width: 22%;
     height: 65vh;
     background-color: white;
     position: relative;
     left: 50px;
     margin: 30px;
-    
+    border-radius: 20px;
+
 }
-.first1{
-   
+
+.first1 {
+
     width: 22%;
     height: 65vh;
     background-color: white;
     position: relative;
     left: 160px;
     margin: 30px;
+    border-radius: 20px;
 }
-.first2{
-   
+
+.first2 {
+
     width: 22%;
     height: 65vh;
     background-color: white;
     position: relative;
     left: 260px;
     margin: 30px;
+    border-radius: 20px;
 }
-.cards{
+
+.cards {
     display: flex;
     margin-left: 25px;
 }
-h3{
+
+h3 {
     position: relative;
     left: 100px;
     margin-top: -20px;
 }
-.allu1{
+
+.allu1 {
     position: relative;
     top: 20px;
     right: -100px;
     word-spacing: 2px;
 }
-.co{
+
+.co {
     justify-content: center;
     margin-left: 50px;
 }
-td{
+
+td {
     padding: 20px;
     width: 25px;
     height: 25px;
 }
-tr td{
+
+tr td {
     text-align: center;
     background-color: rgb(202, 232, 232);
 }
+
 input[type="button"] {
-    border: none; 
- } 
-.map{
+    border: none;
+}
+
+.map {
     display: flex;
 }
-.in1{
+
+.in1 {
     margin-left: 200px;
 }
 
 @media screen and (min-width:320px) and (max-width:580px) {
 
-.read{
-    margin-left: -30px;
-}
+    .read {
+        margin-left: -30px;
+    }
 
- .co{
-    margin-left: 10px;
-    font-size: smaller;
+    .co {
+        margin-left: 10px;
+        font-size: smaller;
 
+
+    }
     
- }  
- .sec{
-    display: flex;
-    flex-direction: column;
- }
- iframe{
-    width: 300px;
-    height: 300px;
- }
-.map{
-    display: flex;
-    flex-direction: column;
-}
-.in1{
+.green {
+   
     position: relative;
-    left: -150px;
+    left: 280px;
+    top: -25px;
+    font-size: 20px;
 }
 
-}
-footer{
-    width: 100%;
-    height: 20vh;
-    background-color: black;
-}
-.h1h{
-    color: white;
-    position: relative;
-    top: 35%;
-    font-size: 180%;
+    button {
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+
+    .links {
+        position: relative;
+        top: 20px;
+        margin-left: -70px;
+    }
+
+
+    .mail>img {
+        width: 28px;
+
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 20px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    .map {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .in1 {
+        position: relative;
+        left: -150px;
+    }
+
+    .team {
+        width: 100%;
+        height: 300vh;
+        background-color: rgb(170, 238, 170);
+
+    }
+
+    .first {
+        width: 100%;
+        height: 100%;
+    }
+
+    .first {
+
+        width: 100%;
+        height: 80vh;
+        background-color: white;
+        position: relative;
+        left: 25px;
+        margin-left: -16px;
+        border-radius: 20px;
+
+    }
+
+    .allu1 {
+        margin-left: 8px;
+    }
+
+    .allu2 {
+        margin-left: 100px;
+    }
+
+    .allu3 {
+        margin-left: 100px;
+    }
+
+    nav {
+        width: 100%;
+        height: 20vh;
+        background-color: white;
+    }
+
+
+    .first1 {
+
+        width: 100%;
+        height: 85vh;
+        background-color: white;
+        position: relative;
+        left: -350px;
+        top: 500px;
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first2 {
+
+        width: 84vw;
+        height: 80vh;
+        background-color: white;
+        position: relative;
+        left: 0;
+        margin-left: -700px;
+        top: 1035px;
+        border-radius: 20px;
+    }
+
+    label[for="Email"] {
+        position: relative;
+        left: -80px;
+
+    }
+
+    .lab1 {
+        position: relative;
+        top: 20px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 100px;
+    }
+
+    label[for="Subject"] {
+        position: relative;
+        left: -25px;
+
+
+    }
+
+    input[type="text"] {
+        width: 250px;
+
+
+    }
+
+    footer {
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+    }
+
+    .h1h {
+        color: white;
+        position: relative;
+        top: 35%;
+        font-size: 180%;
+    }
 }
