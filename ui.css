@@ -200,7 +200,7 @@ input[type="button"] {
 .green {
    
     position: relative;
-    left: 280px;
+    left: 20px;
     top: -25px;
     font-size: 20px;
 }
@@ -293,8 +293,8 @@ input[type="button"] {
         height: 85vh;
         background-color: white;
         position: relative;
-        left: -350px;
-        top: 500px;
+        left: -380px;
+        top: 650px;
         border-radius: 20px;
 
         display: flex;
@@ -308,8 +308,8 @@ input[type="button"] {
         background-color: white;
         position: relative;
         left: 0;
-        margin-left: -700px;
-        top: 1035px;
+        margin-left: -760px;
+        top: 1335px;
         border-radius: 20px;
     }
 
